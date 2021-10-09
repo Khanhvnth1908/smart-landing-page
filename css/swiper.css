@@ -1,0 +1,29 @@
+.swiper-slide-next {
+  transform: translate3d(0px, 0px, -500px) rotateX(0deg) rotateY(0deg) scale(1) !important;
+}
+.swiper-slide-prev {
+  transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(50deg) scale(0) !important;
+}
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+.swiper {
+  padding: 25px 61px;
+  padding-bottom: 61px;
+}
+
+.swiper-pagination-bullet {
+  width: 85px;
+  background: linear-gradient(190.64deg, #e4acff -35.46%, #b623fb 133.53%);
+  border-radius: 20px;
+}
+
+.swiper-pagination-bullet-active {
+  background: linear-gradient(196.91deg, #3cb9ff 0.78%, #b623fb 143.56%);
+  border-radius: 20px;
+}
+
+.pagination-partner {
+  background: #fff !important;
+}
